@@ -1,0 +1,11 @@
+teacher_name: "MiniLLM/MiniLLM-OPT-6.7B"
+student_name: "MiniLLM/MiniLLM-OPT-1.3B"
+
+eval:
+  do_sample: True
+  top_p: 0
+  top_k: 1
+  temperature: 1.0
+  max_length: 512
+  max_prompt_length: 256
+  no_repeat_ngram_size: 6
